@@ -1,26 +1,13 @@
 {
   "host": "localhost",
   "port": 3030,
-  "mongodb": "mongodb://localhost:27017/feathersChatApp",
+  "nedb": "../data/",
   "public": "../public/",
   "auth": {
     "token": {
-      "secret": "Xb17IL5/ootCPhoxAlikgiF5EEj+5MXswZJ3S7frY1LmRHmuvnW9Vrz7bURKK5z/3hBpwplmp2U3P2y4sF/ylQ=="
+      "secret": "zdi5pw7/y6+hUxmcX1Oo8+/uxAwT5e7H6Upyally3auxiYDoYCdO5bxhjU+PzpRF6bXqMHemWz7U2a+Sh18usA=="
     },
     "local": {},
-    "google": {
-      "clientID": "your google client id",
-      "clientSecret": "your google client secret",
-      "permissions": {
-        "scope": ["profile"]
-      }
-    },
-    "spotify": {
-      "clientID": "your spotify client id",
-      "clientSecret": "your spotify client secret",
-      "permissions": {
-        "scope": ["user-read-email","user-read-private"]
-      }
-    }
+    "successRedirect": "/chat.html"
   }
 }
